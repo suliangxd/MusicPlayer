@@ -4,6 +4,7 @@ MusicPlayer  C# winform
 **********************
 *   音乐播放器开发   *
 **********************
+
 开发：
  1.导入windows media Player组件
 
@@ -50,7 +51,7 @@ MusicPlayer  C# winform
         ---> musicPlayer.currentMedia.durationString :当前歌曲总时间 string类型 04:19
        2.根据播放器的状态来进行下一曲
         ---> Ready Playing Pause Ended Stop
-            当播放器的状态到达Ended的时候进行下一曲，
+            当播放器的状态到达Ended的时候进行下一曲
             在Ready之后，我们开始play()
             
 11.显示歌词
@@ -61,10 +62,11 @@ BUG与改进:
       --->打开软件时，无音乐的URL,点击播放按钮无效
       --->在listBox上双击播放ok,select后点“播放”按钮，歌词显示有问题
       --->More...
+      
   改进：
       --->歌词实现逐字变化显示，目前只是逐句显示
       --->歌曲与相关图片一对多映射
       
-  深度改进：    
+  深度改进：   
       --->网络播放
       --->推荐算法
